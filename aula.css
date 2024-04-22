@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./imagens/plim.gif"); width: 100%; height: 100%; background-size: cover;
+}
+
+#heady h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 320%;
+}
+
+#heady {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: red 1px solid;
+}
+
+#heady img {
+    border-radius: 44px;
+    border-color: aliceblue;
+    width: 18%;
+    height: 18%;
+    margin: auto;
+}
+
+#sobre {
+    align-items: left;
+    text-align: left;
+    outline: red 1px solid;
+}
+
+#sobre h2 {
+    align-items: left;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 320%;
+}
+
+#sobre ul {
+    text-align: center;
+    display: inline-block;
+}
+
+#sobre li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#tec {
+    align-items: right;
+    text-align: right;
+    outline: red 1px solid;
+}
+#tec h2 {
+    font-size: 320%;
+}
+#xp{
+    align-items: left;
+    text-align: left;
+    
+}
+#xp h2 {
+    font-size: 320%;
+}
+footer {
+    align-items: center;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+}
